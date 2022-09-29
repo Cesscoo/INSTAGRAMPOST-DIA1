@@ -1,0 +1,100 @@
+*{
+    /* border: 1px dashed red; */
+}
+
+body{
+    background-color: black;
+    font-size: 14px;
+    margin-top: 25px;
+     
+}
+
+.post{
+    background-color: white;
+    width: 520px;
+    margin: auto; /* CENTRA EL DIV */
+    padding: 15px;
+    
+}
+
+/* PARTE DEL HEADER */
+
+.post-header{
+    display: flex;
+
+}
+    /* SÍMBOLOS HEADER */
+
+#logo{
+    width: 25px;
+    font-size: 30px;
+    margin: 5px;
+    
+}
+
+strong{
+    width: 99px; /* SE PONE CON 99PX DEBAJO DE UNA DE OTRA, PORQUE EL TAMAÑO DEL DIV ES INFERIOR A LA SUMA DE LOS DOS NOMBRES */
+    
+}
+
+.name{
+    font-weight: normal;
+
+}
+
+#lanes{
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+/*-------------------------------------------------------------------------*/
+
+/* PARTE DEL BODY */
+
+.post-body{
+    margin-top: 5px;
+    
+}
+
+.foto{
+
+}
+
+/*imagen body*/
+
+#imagen-body{
+  display: flex;
+}
+
+
+.interaccion{
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+
+
+/* SÍMBOLOS DEL FOOTER */
+
+#heart{
+    font-size: 30px; /* aumentar tamaño del logo*/
+}
+
+#comment{
+    font-size: 30px;
+}
+
+#plane{
+    font-size: 30px;
+}
+
+#book{
+    font-size: 30px;
+    float: right;
+}
